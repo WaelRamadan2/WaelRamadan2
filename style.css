@@ -1,0 +1,184 @@
+body{
+    font:15px/1.5 Arial, Helvetica, sans-serif;
+   padding: 0;
+   margin: 0;
+   background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+header{
+background-color: #610b33;
+color: #ffffff;
+padding-top: 10px;
+min-height: 70px;
+border-bottom: #e6f752 4px solid;
+
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+header li{
+float: left;
+display: inline;
+padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+
+}
+header #branding h1{
+    margin: 0;
+
+}
+
+header nav{
+    float: right;
+    margin-bottom: 10px;
+}
+header .highlight ,header .current a{
+    color: rgb(183, 228, 80);
+    font-weight: bold;
+}
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;
+}
+
+
+#showcase{
+    min-height: 700px;
+    background-image: url('ThinkCo-073-e1485902743514.jpg');
+background-position: bottom;
+    text-align:center;
+    color: #aa1010;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 30px;
+text-align: center;
+color: rgb(247, 125, 10);
+}
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+background:#610b33; 
+}
+#newsletter h1{
+    float: left;
+
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+#newsletter input[type="email"]{
+    padding: 5px;
+    height: 25px;
+    width: 250px;
+}
+.button_1{
+    height: 30px;
+    background: rgb(183, 228, 80);
+    border:0 ;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:black;
+}
+#boxes{
+    margin-top: 20px;
+
+}
+#java{
+    margin-top: 20px;
+}
+#web{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 150px;
+   
+}
+#boxes .box img{
+    width:300px;
+  position: relative;
+}
+#java .two{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 150px;
+}
+#java .two img{
+    width:300px;
+  position: relative;
+}
+#web .three{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 150px;
+}
+#web .three img{
+    width:300px;
+  position: relative;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+#main-col{
+    float:left ;
+    width: 65%;
+}
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 2px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+.quote input,.quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+#footer{
+    padding: 20px;
+    margin-top: 15px;
+    color: #ffffff;
+    background-color: #311de8;
+    text-align: center;
+}
